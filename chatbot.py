@@ -1,7 +1,7 @@
 import random
 
 class SymptomCheckerChatbot:
-    def _init_(self, symptoms):
+    def __init__(self, symptoms):
         self.symptoms = symptoms
         self.patient_symptoms = []
         self.symptom_mapping = {
